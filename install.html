@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description"
+        content="Learn to install Helvetia and enjoy fondue, raclette, skiing, sledding, alphorns and cowbells.">
+    <title>Helvetia — Installation and play guide</title>
+    <link rel="icon" type="image/svg+xml" href="mountain.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body><a class="skip" href="#main">Skip to content</a>
+    <header><a class="brand" href="index.html"><img class="brand-icon" src="mountain.svg" alt="">HELVETIA</a>
+        <nav aria-label="Main navigation"><a href="index.html#discover">Discover</a><a href="index.html#guide">Field
+                guide</a><a href="install.html">Install</a><a data-issues href="instal.html#report">Submit an issue</a>
+        </nav>
+    </header>
+    <main id="main">
+        <section class="hero">
+            <div>
+                <div class="eyebrow">The Helvetia play guide</div>
+                <h1>Your first mountain afternoon.</h1>
+                <p class="lead">Installation, shared meals, slope controls and music—all in one place.</p>
+                <p><a href="#install">Install</a> · <a href="#friends">Multiplayer</a>
+                    · <a href="#help">Troubleshooting</a></p>
+                <p><a download href="downloads/helvetia-neoforge-1.21.1-0.1.0-alpha.34.jar">Download Helvetia
+                        JAR file</a></p>
+            </div>
+        <svg class="scene" viewBox="0 0 500 400" role="img"
+                aria-label="Illustrated mountain landscape with snowy peaks and a chalet">
+                <rect width="500" height="400" rx="16" fill="#e4ebe0" />
+                <circle cx="385" cy="74" r="31" fill="#eacb77" />
+                <path d="M0 280 138 65 255 220 335 125 500 300V400H0" fill="#829a86" />
+                <path d="m84 149 54-84 71 94-45-16-30 23-20-29z" fill="#fffef8" />
+                <path d="M140 335 306 72 500 345V400H140" fill="#526e60" />
+                <path d="m252 158 54-86 66 93-37-17-23 16-28-21z" fill="#fffef8" />
+                <path d="M0 325 110 284 248 330 385 286 500 326V400H0" fill="#bdccaa" />
+                <path d="M0 367 140 323 300 365 500 325V400H0" fill="#9db48e" />
+                <path d="M94 290h102v66H94" fill="#b18456" />
+                <path d="m76 292 69-50 70 50z" fill="#704c38" />
+                <path d="m87 282 58-40 58 40" fill="none" stroke="#fffef8" stroke-width="9" />
+                <path d="M139 321h22v35h-22" fill="#4b4538" />
+                <path d="M107 310h18v18h-18m47-18h18v18h-18" fill="#f1d58b" />
+                <path d="M32 319h27l-14-38zm382 3h34l-17-48z" fill="#36594b" /><text x="24" y="382" fill="#294538"
+                    font-family="system-ui,sans-serif" font-size="10" letter-spacing="2">MEALS · MOUNTAINS ·
+                    MUSIC</text>
+            </svg>
+        </section>
+        <section class="section" id="install">
+            <div class="eyebrow">01 / Get ready</div>
+            <h2>Installation.</h2>
+            <p class="intro">Helvetia is a mod for Minecraft <strong>Java Edition</strong>. It requires NeoForge; it
+                does not run in an unmodified vanilla profile, Bedrock, Fabric or Forge. Use Minecraft 1.21.1, NeoForge
+                21.1.265 and Java 21.</p>
+            <div class="grid">
+                <article class="card">
+                    <div class="number">CURSEFORGE APP (available soon)</div>
+                    <h3>Import the ready-made profile</h3>
+                    <ol>
+                        <li>Download the <strong>CurseForge profile ZIP</strong> from the release you are installing.
+                            Leave it zipped.</li>
+                        <li>Open the CurseForge app and select Minecraft.</li>
+                        <li>Choose <strong>Import</strong> (or Create Custom Profile → Import), then select the ZIP.
+                        </li>
+                        <li>Allow the app to install Minecraft 1.21.1 and NeoForge 21.1.265, then launch the profile.
+                        </li>
+                    </ol>
+                    <p><small>This is a sharing profile containing Helvetia, not a published CurseForge project. If
+                            import fails, use the manual route below.</small></p>
+                    <details>
+                        <summary>Already have a compatible CurseForge profile?</summary>
+                        <p>Open its folder, put the Helvetia JAR in <code>mods</code>, remove older Helvetia JARs, and
+                            restart. For a new manual profile, select Minecraft 1.21.1 and NeoForge 21.1.265.</p>
+                    </details>
+                </article>
+                <article class="card">
+                    <div class="number">MINECRAFT LAUNCHER</div>
+                    <h3>Install the JAR yourself</h3>
+                    <ol>
+                        <li>Run Minecraft Java 1.21.1 once, then close it.</li>
+                        <li>Install <a href="https://neoforged.net/">NeoForge 21.1.265 from the official site</a>. The
+                            installer needs Java 21.</li>
+                        <li>Select the NeoForge installation in the launcher. A separate game directory keeps this mod
+                            setup easy to manage.</li>
+                        <li>Put the downloaded JAR in that installation’s <code>mods</code> folder. Create the folder if
+                            needed. Do not unzip the JAR.</li>
+                        <li>Launch NeoForge and check the Mods list for Helvetia.</li>
+                    </ol>
+                    <p><small>To update, close the game and replace the old Helvetia JAR. Keep only one version
+                            installed.</small></p>
+                </article>
+            </div>
+        </section>
+        
+        <section class="section" id="friends">
+            <div class="eyebrow">02 / Better together (still needs testing)</div>
+            <h2>Multiplayer.</h2>
+            <p class="intro">Install the <strong>same Helvetia version, Minecraft 1.21.1 and NeoForge</strong> on every
+                player’s client and on the server. A vanilla server cannot load this mod. LAN play also requires
+                compatible modded clients.</p>
+            <div class="grid">
+                <div class="card">
+                    <h3>A shared evening</h3>
+                    <p>Race down a snowy course, ring cowbells at the finish, and gather for fondue or raclette. Meals
+                        share their servings; sleds have two seats; each musician needs their own horn.</p>
+                </div>
+                <div class="card">
+                    <h3>Updating a group</h3>
+                    <p>Stop the server, back up the world, replace the old Helvetia JAR in the server’s mods folder, and
+                        have everyone update before reconnecting. Keep client and server versions matched.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="help">
+            <div class="eyebrow">03 / A few useful answers</div>
+            <h2>Answers to possible questions.</h2>
+            <details>
+                <summary>Which keys are Sneak, Use and the alternate hand on PC and Mac?</summary>
+                <table>
+                    <caption>Default Minecraft Java Edition controls</caption>
+                    <thead><tr><th scope="col">Action</th><th scope="col">PC (Windows / Linux)</th><th scope="col">Mac</th></tr></thead>
+                    <tbody>
+                        <tr><th scope="row">Sneak / crouch</th><td>Hold <kbd>Left Shift</kbd></td><td>Hold <kbd>Left Shift</kbd> (⇧)</td></tr>
+                        <tr><th scope="row">Use item / place block</th><td>Right mouse button</td><td>Right mouse button, or a two-finger secondary click on a configured trackpad</td></tr>
+                        <tr><th scope="row">Swap main hand and offhand</th><td><kbd>F</kbd></td><td><kbd>F</kbd> (the letter key)</td></tr>
+                    </tbody>
+                </table>
+                <p>The alternate hand is called the <strong>offhand</strong>. Press <kbd>F</kbd> to swap the selected
+                    hotbar item with the offhand item, or place an item in the offhand slot in your inventory.
+                    For fondue, keep the fork in your main hand and bread cubes in your offhand.</p>
+                <p>“Sneak-use” means hold <kbd>Left Shift</kbd> while using/right-clicking. “Hold Use” means keep
+                    the use button held down, for example while eating.</p>
+                <p>On Mac, enable <strong>Secondary click</strong> in System Settings → Trackpad (or Mouse).
+                    A mouse with a right button is convenient for holding Use. If you have changed your bindings,
+                    check <strong>Options → Controls → Key Binds</strong> for Sneak, Use Item/Place Block and
+                    Swap Item With Offhand.</p>
+            </details>
+            <details>
+                <summary>The mod doesn’t appear.</summary>
+                <p>Check that you launched NeoForge 21.1.265 with Minecraft Java 1.21.1, and that the JAR is in that
+                    installation’s mods folder.</p>
+            </details>
+            <details>
+                <summary>I can’t eat the bread or raclette.</summary>
+                <p>Try Survival with some hunger missing, and look away from blocks while holding Use. For fondue, load
+                    the fork with bread, then dip into a heated pot first. Release Use before loading another bite.</p>
+            </details>
+            <details>
+                <summary>The fondue is cold.</summary>
+                <p>Light its réchaud with flint and steel and wait five seconds after adding cheese. The shared pot must
+                    contain cheese portions.</p>
+            </details>
+            <details>
+                <summary>The raclette won’t melt.</summary>
+                <p>Place a lit campfire directly beside the stand at the same height. Rotate the cut face toward the
+                    fire using an empty hand, then wait.</p>
+            </details>
+            <details>
+                <summary>Ingredients don’t run out.</summary>
+                <p>Creative mode preserves added ingredient stacks. Test ingredient consumption and eating in Survival.
+                </p>
+            </details>
+            <details>
+                <summary>Where are the wild herbs?</summary>
+                <p>Look in newly generated meadow terrain at Y=100+. Previously explored chunks won’t gain new patches.
+                    You can also craft seeds from wheat seeds and a dandelion. The herbs will not appear in land that 
+                    was generated before the mod was installed.</p>
+            </details>
+            <details>
+                <summary>How do I check a download?</summary>
+                <p>Compare your file’s SHA-256 with <a href="downloads/SHA256SUMS.txt">SHA256SUMS.txt</a>. On macOS use
+                    <code>shasum -a 256 filename.jar</code>; in Windows PowerShell use
+                    <code>Get-FileHash filename.jar -Algorithm SHA256</code>. A matching checksum detects changed bytes;
+                    it is not a security certification.</p>
+            </details>
+            <details id="report" open>
+                <summary>How do I report a problem?</summary>
+                <p><a data-issues href="#report">Submit an issue on GitHub</a>. <span id="issue-help">Use the Issues tab
+                        in the GitHub repository hosting this page.</span></p>
+                <p>Include your Helvetia, Minecraft and NeoForge versions, steps to reproduce, single-player or server
+                    context, other installed mods, and a screenshot or relevant log excerpt. Remove personal information
+                    and credentials before sharing logs with the maintainer.</p>
+            </details>
+        </section>
+    </main>
+    <footer class="footer"><span><strong>HELVETIA</strong> · Mountain life, food, sport and
+            music.</span><span>Independent Minecraft mod. Not an official Minecraft product.</span></footer>
+    <script src="site.js"></script>
+</body>
+
+</html>
